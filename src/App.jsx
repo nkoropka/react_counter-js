@@ -13,11 +13,11 @@ export const App = () => {
   };
 
   const increase = () => {
+    addOne();
+
     if (count % 5 === 0) {
       add100();
     }
-
-    addOne();
   };
 
   // DON'T change the code below
